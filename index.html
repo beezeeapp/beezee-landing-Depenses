@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Beezee · Chaque dépense justifiée</title>
+<meta name="description" content="Une photo du reçu, c'est classé. Beezee lit le reçu, enregistre la dépense et garde la pièce pour votre comptable. Gratuit jusqu'à 20 pièces par mois.">
+<meta name="theme-color" content="#f6f6f3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2 L28.1 9 L28.1 23 L16 30 L3.9 23 L3.9 9 Z' fill='%2335d407'/%3E%3Cpath d='M10.5 16.5 L14.5 20.5 L21.5 12' fill='none' stroke='%232731a3' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://beezee.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Beezee">
+<meta property="og:title" content="Beezee · Chaque dépense justifiée">
+<meta property="og:description" content="Une photo du reçu, c'est classé. Beezee lit le reçu, enregistre la dépense et garde la pièce pour votre comptable. Gratuit jusqu'à 20 pièces par mois.">
+<meta property="og:url" content="https://beezee.app/">
+<meta property="og:image" content="https://beezee.app/assets/depense-detail.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600&amp;family=Inter:wght@400;500;600&amp;display=swap">
+<style>
+body{margin:0;background:#f6f6f3}
+a{color:#2731a3}a:hover{color:#1f2785}
+.bz-desk{display:none}
+.bz-bar{display:flex}
+@media (min-width:760px){.bz-desk{display:flex}.bz-bar{display:none}}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #2731a3;outline-offset:2px}
+</style>
+</head>
+<body>
+<div style="font-family: 'Inter', system-ui, sans-serif; color: #15183f; background: #f6f6f3">
+
+<header style="max-width: 1200px; margin: 0 auto; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none" aria-label="Beezee, accueil">
+<svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 L28.1 9 L28.1 23 L16 30 L3.9 23 L3.9 9 Z" fill="#35d407"></path><path d="M10.5 16.5 L14.5 20.5 L21.5 12" fill="none" stroke="#2731a3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span style="font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 28px; letter-spacing: -0.04em; color: #2731a3">beezee</span>
+</a>
+<div style="display: flex; align-items: center; gap: 24px">
+<nav class="bz-desk" style="align-items: center; gap: 24px" aria-label="Navigation">
+<a href="#fonctionnement" style="font-size: 15px; text-decoration: none; color: #5b6082">Comment ça marche</a>
+<a href="#questions" style="font-size: 15px; text-decoration: none; color: #5b6082">Questions</a>
+<a href="https://app.beezee.app/" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #2731a3; color: #ffffff; font-weight: 600; font-size: 15px; text-decoration: none">Essayer gratuitement</a>
+</nav>
+<a class="bz-bar" href="https://app.beezee.app/" style="align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #eceefb; color: #2731a3; font-weight: 600; font-size: 15px; text-decoration: none">Se connecter</a>
+</div>
+</header>
+
+<section id="top" style="max-width: 1200px; margin: 0 auto; padding: 24px 20px 48px; display: flex; flex-wrap: wrap; align-items: center; gap: 40px">
+<div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; color: #5b6082">GRATUIT JUSQU'À 20 PIÈCES PAR MOIS</p>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: clamp(46px, 12vw, 88px); line-height: 1.0; letter-spacing: -0.045em; color: #2731a3">Chaque dépense justifiée.</h1>
+<p style="margin: 0; font-size: clamp(18px, 4.8vw, 22px); line-height: 1.45; color: #5b6082; max-width: 34em">Une photo du reçu, c'est classé. Beezee lit le reçu, enregistre la dépense et garde la pièce pour votre comptable.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="https://app.beezee.app/" style="flex: 1 1 260px; display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 0 28px; border-radius: 999px; background: #2731a3; color: #ffffff; font-weight: 600; font-size: 17px; text-decoration: none">Essayer gratuitement</a>
+<a href="#fonctionnement" style="flex: 1 1 200px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 56px; padding: 0 24px; border-radius: 999px; background: #eceefb; color: #2731a3; font-weight: 600; font-size: 17px; text-decoration: none">Voir comment ça marche</a>
+</div>
+<p style="margin: 0; font-size: 15px; color: #5b6082">Sans installation : Beezee s'ouvre dans le navigateur de votre téléphone.</p>
+</div>
+
+<div style="flex: 1 1 320px; min-width: 0; display: flex; justify-content: center">
+<div style="width: 100%; max-width: 380px; background: #ffffff; border: 1px solid #e1e2ea; border-radius: 36px; padding: 24px 20px 20px; display: flex; flex-direction: column; gap: 16px; box-sizing: border-box">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<p style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 26px; letter-spacing: -0.03em; color: #2731a3">Nouvelle dépense</p>
+<span style="font-size: 12px; font-weight: 500; color: #5b6082">Données d'exemple</span>
+</div>
+<div style="height: 120px; border-radius: 18px; background: #eceefb; display: flex; align-items: center; justify-content: center; gap: 10px; color: #2731a3">
+<svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h12v20l-3-2-3 2-3-2-3 2z"></path><path d="M9 7h6M9 11h6M9 15h4"></path></svg>
+<span style="font-size: 15px; font-weight: 600">Reçu lu par Beezee</span>
+</div>
+<p style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 58px; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; color: #15183f">25 000 F</p>
+<div style="display: flex; flex-direction: column">
+<div style="display: flex; justify-content: space-between; padding: 12px 0; border-top: 1px solid #e1e2ea"><span style="font-size: 15px; color: #5b6082">Fournisseur</span><span style="font-size: 15px; font-weight: 600">Station exemple</span></div>
+<div style="display: flex; justify-content: space-between; padding: 12px 0; border-top: 1px solid #e1e2ea"><span style="font-size: 15px; color: #5b6082">Catégorie</span><span style="font-size: 15px; font-weight: 600">Carburant</span></div>
+<div style="display: flex; justify-content: space-between; padding: 12px 0; border-top: 1px solid #e1e2ea"><span style="font-size: 15px; color: #5b6082">Date</span><span style="font-size: 15px; font-weight: 600">12 nov.</span></div>
+<div style="display: flex; justify-content: space-between; padding: 12px 0; border-top: 1px solid #e1e2ea; border-bottom: 1px solid #e1e2ea"><span style="font-size: 15px; color: #5b6082">Payé par</span><span style="font-size: 15px; font-weight: 600">Awa · Wave</span></div>
+</div>
+<div style="display: flex; align-items: center; gap: 6px"><span style="width: 8px; height: 8px; border-radius: 999px; background: #35d407"></span><span style="font-size: 15px; font-weight: 600; color: #0b5a1f">Pièce jointe enregistrée</span></div>
+<button type="button" style="min-height: 52px; border: 0; border-radius: 999px; background: #2731a3; color: #ffffff; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 17px">Valider la dépense</button>
+</div>
+</div>
+</section>
+
+<section style="background: #ffffff; border-top: 1px solid #e1e2ea; border-bottom: 1px solid #e1e2ea">
+<div style="max-width: 1200px; margin: 0 auto; padding: 48px 20px; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: clamp(32px, 8.4vw, 44px); line-height: 1.05; letter-spacing: -0.04em; color: #2731a3; max-width: 18em">Vous connaissez ces situations.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<div style="background: #f6f6f3; border-radius: 22px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 26px; line-height: 1.1; letter-spacing: -0.03em">Un reçu perdu, c'est de l'argent perdu.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">La dépense est faite, mais sans pièce, impossible de la justifier ou de se faire rembourser.</p>
+</div>
+<div style="background: #f6f6f3; border-radius: 22px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 26px; line-height: 1.1; letter-spacing: -0.03em">Le comptable réclame les pièces.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">En fin de mois, on fouille les poches, les sacs et les conversations WhatsApp.</p>
+</div>
+<div style="background: #f6f6f3; border-radius: 22px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 26px; line-height: 1.1; letter-spacing: -0.03em">On ne sait plus où part l'argent.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">Carburant, fournitures, petites courses : chaque petite dépense compte, et aucune n'est suivie.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="fonctionnement" style="max-width: 1200px; margin: 0 auto; padding: 48px 20px; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; color: #5b6082">COMMENT ÇA MARCHE</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: clamp(32px, 8.4vw, 44px); line-height: 1.05; letter-spacing: -0.04em; color: #2731a3">Trois gestes, trente secondes.</h2>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<li style="background: #ffffff; border: 1px solid #e1e2ea; border-radius: 28px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 44px; line-height: 1; letter-spacing: -0.04em; color: #2731a3">1</span>
+<p style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 26px; letter-spacing: -0.03em">Photographiez le reçu</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">Au moment de payer, depuis votre téléphone.</p>
+</li>
+<li style="background: #ffffff; border: 1px solid #e1e2ea; border-radius: 28px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 44px; line-height: 1; letter-spacing: -0.04em; color: #2731a3">2</span>
+<p style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 26px; letter-spacing: -0.03em">Beezee remplit pour vous</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">Fournisseur, montant, date et catégorie sont lus sur le reçu.</p>
+</li>
+<li style="background: #ffffff; border: 1px solid #e1e2ea; border-radius: 28px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 44px; line-height: 1; letter-spacing: -0.04em; color: #2731a3">3</span>
+<p style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 26px; letter-spacing: -0.03em">Vous validez</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">La dépense est classée, la pièce est gardée, tout est prêt pour le comptable.</p>
+</li>
+</ol>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 0 0 48px; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: clamp(32px, 8.4vw, 44px); line-height: 1.05; letter-spacing: -0.04em; color: #2731a3; padding: 0 20px">Beezee, en vrai.</h2>
+<div role="group" aria-label="Captures de Beezee, faites défiler" tabindex="0" style="display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 20px 8px">
+<figure style="margin: 0; flex: 1 0 230px; max-width: 320px; scroll-snap-align: center; display: flex; flex-direction: column; gap: 10px">
+<img src="assets/recu-photo.jpg" alt="Photo d'un reçu de restaurant prise dans Beezee" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 28px; border: 1px solid #e1e2ea">
+<figcaption style="font-size: 15px; color: #5b6082">Le reçu est photographié en un geste.</figcaption>
+</figure>
+<figure style="margin: 0; flex: 1 0 230px; max-width: 320px; scroll-snap-align: center; display: flex; flex-direction: column; gap: 10px">
+<img src="assets/depense-detail.jpg" alt="Écran Beezee : dépense de 7 000 FCFA remplie à partir du reçu, avec fournisseur, date, catégorie et TVA" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 28px; border: 1px solid #e1e2ea">
+<figcaption style="font-size: 15px; color: #5b6082">Beezee propose, vous corrigez si besoin.</figcaption>
+</figure>
+<figure style="margin: 0; flex: 1 0 230px; max-width: 320px; scroll-snap-align: center; display: flex; flex-direction: column; gap: 10px">
+<img src="assets/liste-depenses.jpg" alt="Écran Beezee : liste des dépenses classées par date" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 28px; border: 1px solid #e1e2ea">
+<figcaption style="font-size: 15px; color: #5b6082">Toutes les dépenses, avec leur pièce, au même endroit.</figcaption>
+</figure>
+</div>
+</section>
+
+<section id="pilote" style="background: #2731a3">
+<div style="max-width: 1200px; margin: 0 auto; padding: 48px 20px; display: flex; flex-wrap: wrap; gap: 28px 48px; align-items: flex-start">
+<div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 16px; color: #ffffff">
+<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; color: #ffffff">COMMENCEZ MAINTENANT</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: clamp(32px, 8.4vw, 44px); line-height: 1.05; letter-spacing: -0.04em; color: #ffffff">Créez votre compte, photographiez votre premier reçu.</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #ffffff">L'inscription est gratuite. Besoin d'aide pour démarrer ? Nous vous accompagnons.</p>
+</div>
+
+<div style="flex: 1 1 380px; min-width: 0; background: #ffffff; border-radius: 28px; padding: 24px 20px; display: flex; flex-direction: column; gap: 18px; box-sizing: border-box; color: #15183f">
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px">
+<li style="display: flex; align-items: center; gap: 14px"><span style="flex: 0 0 40px; height: 40px; border-radius: 999px; background: #eceefb; color: #2731a3; display: inline-flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 20px">1</span><span style="font-size: 17px; font-weight: 600">Créez votre compte</span></li>
+<li style="display: flex; align-items: center; gap: 14px"><span style="flex: 0 0 40px; height: 40px; border-radius: 999px; background: #eceefb; color: #2731a3; display: inline-flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 20px">2</span><span style="font-size: 17px; font-weight: 600">Photographiez votre premier reçu</span></li>
+<li style="display: flex; align-items: center; gap: 14px"><span style="flex: 0 0 40px; height: 40px; border-radius: 999px; background: #eceefb; color: #2731a3; display: inline-flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: 20px">3</span><span style="font-size: 17px; font-weight: 600">Validez : c'est classé</span></li>
+</ol>
+<a href="https://app.beezee.app/" style="display: inline-flex; align-items: center; justify-content: center; min-height: 56px; border-radius: 999px; background: #2731a3; color: #ffffff; font-weight: 600; font-size: 17px; text-decoration: none">Essayer gratuitement</a>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: #5b6082">Gratuit jusqu'à 20 pièces par mois. En créant un compte, vous acceptez notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+</div>
+<div style="flex: 1 1 100%; display: flex; flex-direction: column; gap: 14px; color: #ffffff">
+<p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; color: #ffffff">ILS UTILISENT DÉJÀ BEEZEE</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px">
+<figure style="margin: 0; background: #ffffff; border-radius: 22px; padding: 24px; display: flex; flex-direction: column; gap: 12px; color: #15183f">
+<blockquote style="margin: 0; font-size: 17px; line-height: 1.5">« Avant, je passais mes fins de mois à courir après les reçus. Maintenant, chacun prend sa photo et tout est déjà classé quand le comptable appelle. »</blockquote>
+<figcaption style="font-size: 15px; color: #5b6082">Fatou, assistante de gestion, ADNCORP</figcaption>
+</figure>
+<figure style="margin: 0; background: #ffffff; border-radius: 22px; padding: 24px; display: flex; flex-direction: column; gap: 12px; color: #15183f">
+<blockquote style="margin: 0; font-size: 17px; line-height: 1.5">« Avant, je perdais des reçus et je ne me faisais pas rembourser : c'était de l'argent perdu de ma poche. Aujourd'hui, toutes mes dépenses sont au même endroit, avec leur justificatif. »</blockquote>
+<figcaption style="font-size: 15px; color: #5b6082">Marie, directrice d'entreprise, ALNIMAA</figcaption>
+</figure>
+</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 17px; line-height: 1.5; color: #ffffff">
+<li>Accompagnement direct par l'équipe fondatrice</li>
+<li>Vos données restent les vôtres</li>
+<li>Gratuit jusqu'à 20 pièces par mois</li>
+<li>Au-delà : 4 000 F par mois au lieu de 5 000 F, tarif réservé aux premiers utilisateurs</li>
+</ul>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px">
+<a href="https://wa.me/message/QSQ7O4GXAMC4D1" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 999px; background: #25D366; color: #ffffff; font-weight: 600; font-size: 16px; text-decoration: none"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="#ffffff" style="flex: 0 0 auto"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>Une question ? Écrivez-nous sur WhatsApp</a>
+<span style="font-size: 15px; color: #ffffff">ou à <a href="mailto:momar@beezee.app" style="color: #ffffff; font-weight: 600">momar@beezee.app</a></span>
+</div>
+</div>
+</div>
+</section>
+
+<section id="questions" style="max-width: 860px; margin: 0 auto; padding: 48px 20px; display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', 'Inter', sans-serif; font-weight: 500; font-size: clamp(32px, 8.4vw, 44px); line-height: 1.05; letter-spacing: -0.04em; color: #2731a3">Questions fréquentes</h2>
+<div style="display: flex; flex-direction: column">
+<div style="padding: 20px 0; border-top: 1px solid #e1e2ea; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 17px; font-weight: 600">Est-ce un logiciel de comptabilité ?</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">Non. Beezee est un assistant d'opérations financières : il capte vos dépenses et leurs pièces au quotidien. Votre comptable garde la main sur la comptabilité.</p>
+</div>
+<div style="padding: 20px 0; border-top: 1px solid #e1e2ea; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 17px; font-weight: 600">Faut-il installer une application ?</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">Non. Beezee s'ouvre dans le navigateur de votre téléphone ou de votre ordinateur. Vous pouvez l'ajouter à l'écran d'accueil comme une application.</p>
+</div>
+<div style="padding: 20px 0; border-top: 1px solid #e1e2ea; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 17px; font-weight: 600">Mon comptable pourra-t-il récupérer les dépenses ?</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">Oui. Vous exportez vos dépenses dans un fichier simple, à transmettre à votre comptable ou à utiliser pour votre suivi interne.</p>
+</div>
+<div style="padding: 20px 0; border-top: 1px solid #e1e2ea; border-bottom: 1px solid #e1e2ea; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 17px; font-weight: 600">Que deviennent mes données ?</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #5b6082">Elles appartiennent à votre entreprise. Nous ne les vendons pas et ne les partageons qu'avec les personnes que vous invitez.</p>
+</div>
+</div>
+</section>
+
+<footer id="confidentialite" style="border-top: 1px solid #e1e2ea; background: #ffffff">
+<div style="max-width: 1200px; margin: 0 auto; padding: 32px 20px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<div style="display: flex; align-items: center; gap: 10px">
+<svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 L28.1 9 L28.1 23 L16 30 L3.9 23 L3.9 9 Z" fill="#35d407"></path><path d="M10.5 16.5 L14.5 20.5 L21.5 12" fill="none" stroke="#2731a3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span style="font-size: 15px; color: #5b6082">© 2026 BEEZEE SAS · Paris - Dakar - Abidjan</span>
+</div>
+<nav style="display: flex; flex-wrap: wrap; gap: 8px 24px" aria-label="Liens de pied de page">
+<a href="confidentialite.html" style="font-size: 15px; display: inline-flex; align-items: center; min-height: 44px">Politique de confidentialité</a>
+<a href="https://wa.me/message/QSQ7O4GXAMC4D1" target="_blank" rel="noopener" style="font-size: 15px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="#25D366" style="flex: 0 0 auto"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>Nous contacter sur WhatsApp</a>
+<a href="mailto:momar@beezee.app" style="font-size: 15px; display: inline-flex; align-items: center; min-height: 44px">momar@beezee.app</a>
+</nav>
+</div>
+</footer>
+
+<div class="bz-bar" style="position: sticky; bottom: 0; gap: 10px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); background: #ffffff; border-top: 1px solid #e1e2ea">
+<a href="https://app.beezee.app/" style="flex: 1 1 auto; display: inline-flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 999px; background: #2731a3; color: #ffffff; font-weight: 600; font-size: 16px; text-decoration: none">Essayer gratuitement</a>
+<a href="https://wa.me/message/QSQ7O4GXAMC4D1" target="_blank" rel="noopener" aria-label="Nous contacter sur WhatsApp" style="flex: 0 0 52px; display: inline-flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 999px; background: #25D366; color: #ffffff"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg></a>
+</div>
+
+</div>
+</body>
+</html>
